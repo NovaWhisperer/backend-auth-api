@@ -1,5 +1,8 @@
 
+
 # Backend Auth API
+
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/NovaWhisperer/backend-auth-api)
 
 
 A Node.js backend API providing user authentication using Express and MongoDB.
@@ -22,18 +25,21 @@ A Node.js backend API providing user authentication using Express and MongoDB.
 ## Security Notice
 Passwords are stored in plain text in this implementation. For any real-world or production use, implement password hashing (e.g., with bcrypt) and follow security best practices.
 
+
 ## Project Structure
+
 ```
-package.json
-server.js
-src/
-  app.js
-  db/
-    db.js
-  models/
-    user.models.js
-  routes/
-    auth.routes.js
+backend-auth-api/
+├── package.json
+├── server.js
+└── src/
+    ├── app.js
+    ├── db/
+    │   └── db.js
+    ├── models/
+    │   └── user.models.js
+    └── routes/
+        └── auth.routes.js
 ```
 
 ## Getting Started
@@ -44,10 +50,10 @@ src/
 
 ### Installation
 1. Clone the repository:
-   ```sh
-   git clone <repo-url>
-   cd <repo-directory>
-   ```
+  ```sh
+  git clone https://github.com/NovaWhisperer/backend-auth-api.git
+  cd backend-auth-api
+  ```
 2. Install dependencies:
    ```sh
    npm install
